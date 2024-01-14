@@ -1,0 +1,71 @@
+header.header {
+  background: #3ed4e3;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+
+  form {
+    width: 60%;
+    display: flex;
+
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    input.title {
+      height: 32px;
+      padding: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    textarea.body {
+      height: 80px;
+      padding: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    button.btn {
+      background: black;
+      padding: 16px;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+  }
+}
+
+.todo-item {
+  background: whitesmoke;
+  padding: 16px;
+  margin: 4px 0;
+
+  &:last-child {
+    margin: 4px 0 0;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+
+  p {
+    margin: 4px 0 0 0;
+    padding: 0;
+    font-size: 18px;
+  }
+}
+
+.todo-list {
+  width: 60%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
